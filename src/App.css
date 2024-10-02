@@ -1,0 +1,57 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Updated font */
+  background: linear-gradient(to right, #f0f2f5, #d9e3eb); /* Soft gradient background */
+  color: #333; /* Dark text color */
+}
+
+.App {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 12px; /* Soft edges */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+}
+
+.input {
+  border-radius: 10px; /* Rounded input */
+}
+
+.upload-button {
+  background-color: #3f51b5; /* Custom button color */
+  color: white; /* Button text color */
+  transition: background-color 0.3s, transform 0.3s; /* Transition for hover */
+}
+
+.upload-button:hover {
+  background-color: #303f9f; /* Darker shade on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+.submit-button {
+  margin-top: 20px; /* Space above submit button */
+  background-color: #4caf50; /* Green submit button */
+  color: white;
+  transition: background-color 0.3s, transform 0.3s; /* Transition for hover */
+}
+
+.submit-button:hover {
+  background-color: #388e3c; /* Darker shade on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
